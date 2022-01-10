@@ -1,11 +1,15 @@
-import React from 'react';
+import React from 'react'
 
-function App() {
+import { IndexPage } from './pages/index'
+import { GlobalStyle } from './styles/global'
+
+function App () {
   return (
     <>
-      <h1>Hello World!</h1>
+      <IndexPage />
+      <GlobalStyle />
     </>
-  );
+  )
 }
 
-export default App;
+export default App
